@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-color: #042484;
+    height: 50px
+}
+
+nav {
+    height: inherit;
+    display: flex;
+    justify-content: start;
+    align-items: center
+}
+
+nav > a {
+    text-decoration: none;
+    color: #7dc8fb;
+    padding: 30px 15px;
+    font-size: 20px
+}
+
+.about_us {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about_us img {
+    width: 200px;
+    margin: 10px 220px
+}
+
+.about_us_description {
+    display: flex;
+    flex-direction: column;
+}
+
+.about_us_description * {
+    padding: 5px;
+}
+
+.my_game {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.my_game * {
+    text-align: center;
+}
+
+.my_game input, .my_game button {
+    border: none;
+    margin: 5px;
+    min-height: 30px;
+}
+
+.my_game button {
+    width: max-content;
+    background-color: lightgreen;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+.my_game input {
+    background-color: lightgray;
+    outline: none;
+    border-radius: 5px;
+}
+
+.choose_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.choose_block_container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    max-width: 1000px;
+}
+
+.choose_block_container > div {
+    width: 150px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgreen;
+}
+
+.chosen_element {
+    border: 3px solid black;
+}
