@@ -2,16 +2,16 @@
 <head>
     <meta charset="UTF-8">
     <title>My page</title>
-    <link href="cactus.png" rel="icon">
+    <link href="paw.png" rel="icon">
     <link href="./style.css" rel="stylesheet">
 </head>
 
 <body>
 <header>
     <nav>
-        <a href="#">About us</a>
-        <a href="#">Hobby</a>
-        <a href="#">Contacts</a>
+        <a href= "#my_game">Game</a>
+        <a href="#choose_block">Chose block</a>
+        <a href="#post_block">Fake posts</a>
     </nav>
 </header>
 
@@ -24,7 +24,7 @@
         <div class="about_us_description">
             <p>
                 <strong>Name</strong>
-                <span>Григорий</span>
+                <span>Gregory</span>
             </p>
             <p>
                 <strong>Programming language</strong>
@@ -42,9 +42,9 @@
         <input hidden type="number">
         <button>Start!</button>
     </div>
-    <div class="choose_block">
-        <h2>Выберите элементы</h2>
-        <p>Элементов выбрано: <span>0</span></p>
+    <div class="choose_block" id="choose_block">
+        <h2>Chose block</h2>
+        <p>Blocks chosen: <span>0</span></p>
         <div class="choose_block_container">
             <div>1</div>
             <div>2</div>
@@ -60,11 +60,19 @@
             <div>12</div>
         </div>
     </div>
+    <div class="post_block" id="post_block">
+        <h2>Blog</h2>
+        <button class="show_posts_btn">Show posts</button>
+        <div class="post_block_container">
+<!--            <p>-->
+<!--                <h3></h3>-->
+<!--                <span></span>-->
+<!--            </p>-->
+        </div>
+    </div>
 </main>
 
-<footer>
-    2023
-</footer>
+<footer>2023</footer>
 
 <script src="script.js"></script>
 </body>
