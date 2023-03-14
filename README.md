@@ -1,3 +1,3 @@
-Данный репозиторий создан в рамках моего знакомства с Java Script
+This repository was created as part of my acquaintance with JavaScript
 
-Отдельная благодарность организаторам бесплатного курса по JS из MathsHub (https://maths-h.com/ru)
+Special thanks to the organizers of the free course on JS from MathsHub (https://maths-h.com/ru)
